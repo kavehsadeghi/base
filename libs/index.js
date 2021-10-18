@@ -3,7 +3,6 @@ module.exports = [
     'compression',
     'cors',
     'helmet',
-    // 'httpError',
     'morgan',
     'responseTime',
     'router',

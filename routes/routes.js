@@ -1,7 +1,7 @@
-var express = require('express');
-// const app = express();
-var router = express.Router();
-require('events').EventEmitter.defaultMaxListeners = 0
-var test_controller = require('../controllers/testController');
-router.get('/test', test_controller.index);
+const express = require('express');
+// eslint-disable-next-line new-cap
+const router = express.Router();
+require('events').EventEmitter.defaultMaxListeners = 0;
+const testController = require('../controllers/testController');
+router.get('/test', testController.index);
 module.exports = router;

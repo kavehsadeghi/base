@@ -16,5 +16,9 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-google": "^0.14.0"
   }
 }

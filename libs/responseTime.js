@@ -1,4 +1,4 @@
-var responseTime = require('response-time');
-module.exports = app => {
-    app.use(responseTime());
-}
+const responseTime = require('response-time');
+module.exports = (app) => {
+  app.use(responseTime());
+};

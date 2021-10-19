@@ -1,0 +1,16 @@
+datasource db {
+  provider = "mysql"
+  url      = env("mysqlPrisma")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Job {
+  id       Int    @id @default(autoincrement())
+  title    Json
+  location String
+  salary   String
+  test String
+}

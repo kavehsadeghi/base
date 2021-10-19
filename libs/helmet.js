@@ -1,4 +1,4 @@
-const helmet = require("helmet");
-module.exports = app => {
-    app.use(helmet());
-}
+const helmet = require('helmet');
+module.exports = (app) => {
+  app.use(helmet());
+};

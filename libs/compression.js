@@ -1,4 +1,4 @@
-var compression = require('compression');
-module.exports = app => {
-    app.use(compression());
-}
+const compression = require('compression');
+module.exports = (app) => {
+  app.use(compression());
+};

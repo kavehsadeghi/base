@@ -24,7 +24,8 @@
     "prisma": "^3.2.1"
   },
   "prisma": {
-    "schema": "database/schema.prisma"
+    "schema": "database/schema.prisma",
+    "seed": "node database/seed.js"
   }
   
 }
